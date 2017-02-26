@@ -109,7 +109,7 @@ Here's a [link to my video result](./final_video.mp4)
 
 ####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-The approach I took to finishing this project was breaking things down step by step a figuring out at least at a naive level what needed to be done at each step. This was a little difficult because I didn't really know how to verify that my results were what was expected. As a sanity check I asked my peers to take a look at my results to see if they thought it looked like expected results.
+The approach I took to finishing this project was breaking things down step by step and figuring out at least at a naive level what needed to be done at each step. This was a little difficult because I didn't really know how to verify that my results. As a sanity check I asked my peers to take a look at my results to see if they thought it looked like what was expected.
 
 I ran into a problem with trying to draw lines on a binary image. The problem was that I needed to reshape my binary image into a 3 channel color image with values between 0 and 255. When I have some free time I'd like to build a tool to help debug image shape problems such as this.
 
